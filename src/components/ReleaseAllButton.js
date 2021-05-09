@@ -1,4 +1,4 @@
-import { releaseAll } from './actions';
+import { releaseAll } from '../actions';
 import { useDispatch } from 'react-redux'
 
 function ReleaseAllButton() {

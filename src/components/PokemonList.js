@@ -1,5 +1,6 @@
-import data from './data'
+import data from '../data'
 import Pokemon from './Pokemon'
+import './PokemonList.css'
 
 function PokemonList() {
   return (

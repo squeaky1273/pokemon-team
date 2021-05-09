@@ -1,20 +1,19 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import PokemonPage from './PokemonPage'
-import PokemonTeamPage from './PokemonTeamPage'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import PokemonPage from './components/PokemonPage'
+import PokemonTeamPage from './components/PokemonTeamPage'
+import Title from './components/Title';
 
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-      <Link to="/">Wild</Link>
-      <Link to="/team">Team</Link>
-  
-      <Route path="/team" component={PokemonTeamPage} />
-      <Route path="/" exact component={PokemonPage} />
-      </Router>
-    </div>
+    <Router>
+      <div className="App">
+        <Title />
+        <Route path="/team" component={PokemonTeamPage} />
+        <Route path="/" exact component={PokemonPage} />
+      </div>
+    </Router>
   );
 }
 

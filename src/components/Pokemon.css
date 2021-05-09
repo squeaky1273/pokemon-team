@@ -1,0 +1,19 @@
+.PokemonDetail h1 {
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: #212121;
+    width: 100%;
+}
+
+
+.PokemonDetail .PokemonDetail-image {
+    flex: 2;
+    position: relative;
+    background: #F5F5F5;
+}
+
+.PokemonDetail {
+    position: relative;
+    padding: 10px;
+    border: 5px solid #F5F5F5;
+    background: #F5F5F5;
+  }
