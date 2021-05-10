@@ -6,6 +6,7 @@ function Title() {
   return (
     <div className="Title">
       <header>
+      <h1>POKEMON</h1>
         <div>
           <NavLink
             className="nav-link"

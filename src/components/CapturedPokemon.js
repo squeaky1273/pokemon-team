@@ -1,7 +1,7 @@
 import data from '../data';
 import { useDispatch } from 'react-redux'
 import { removeFromTeam, addOne, releaseOne } from '../actions'
-import './CapturedPokemon.css'
+// import './CapturedPokemon.css'
 
 function CapturedPokemon({id, index, count}) {
     const {name, image, type} = data[id]
@@ -16,8 +16,8 @@ function CapturedPokemon({id, index, count}) {
                 <p>
                     <button
                         onClick={() => dispacther(releaseOne(index))}
-                    >+</button>
-                    {count}
+                    >-</button>
+                    { count }
                     <button
                         onClick={() => dispacther(addOne(index))}
                     >+</button>
