@@ -7,6 +7,7 @@ function Title() {
     <div className="Title">
       <header>
       <h1>POKEMON</h1>
+
         <div>
           <NavLink
             className="nav-link"
@@ -17,9 +18,8 @@ function Title() {
           <NavLink
             className="nav-link"
             activeClassName="nav-link-active"
-            to="/team">Team</NavLink>
+            to="/team">Your Team</NavLink>
         </div>
-
       </header>
     </div>
   )

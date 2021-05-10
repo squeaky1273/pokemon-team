@@ -2,7 +2,7 @@ import PokemonList from "./PokemonList"
 
 function PokemonPage() {
     return (
-        <div>
+        <div className="PokemonPage">
             <PokemonList />
         </div>
     )

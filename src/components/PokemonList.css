@@ -1,3 +1,11 @@
+.PokemonPage {
+  padding-bottom: 6em;
+  position: relative;
+  padding: 50px;
+  border: 5px solid #F5F5F5;
+  background: #F5F5F5;
+}
+
 .PokemonList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

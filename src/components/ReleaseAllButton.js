@@ -7,7 +7,7 @@ function ReleaseAllButton() {
         <button
         className="ReleaseAllButton"
         onClick={() => dispatcher( releaseAll() )}
-        >Release Pokemon</button>
+        >Release All Pokemon</button>
     )
 
 }
